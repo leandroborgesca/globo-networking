@@ -5,7 +5,7 @@ on: push
 env:
   TF_LOG: INFO
   TF_INPUT: false
-  IS_AUTOMATION: true
+  TF_IN_AUTOMATION: true
 jobs:
   terraform:
     name: 'Terraform'
