@@ -20,6 +20,7 @@ locals {
     "BillingCode" = var.billing_code
     "Environment" = var.environment
     "Workspace"   = terraform.workspace
+    "Owner"       = "terraform"
   }
 }
 
